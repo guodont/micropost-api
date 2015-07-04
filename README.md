@@ -1,8 +1,8 @@
 #sample micropost api
 
-```
-using rails 4.2.0
-```
+
+    using rails 4.2.0
+
 
 ##Getting Started
 
@@ -21,11 +21,12 @@ using rails 4.2.0
 
 ```
     $rails s
-    $firefox [http:://localhost:3000](http:://localhost:3000)
 ```
+    browser [http:://localhost:3000](http:://localhost:3000)
+
 ###Docs
 
 Restfull api docs
-```
-    $firefox [http://localhost:3000/docs/](http://localhost:3000/docs/)
-```
+
+    browser [http://localhost:3000/docs/](http://localhost:3000/docs/)
+
