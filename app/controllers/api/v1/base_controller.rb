@@ -30,6 +30,10 @@ class Api::V1::BaseController < ApplicationController
     api_error(status: 401)
   end
 
+  def destroy_session
+    request.session_options[:skip] = true
+  end
+
   def paginate(resource)
     resource = resource.page(params[:page] || 1)
     if params[:per_page]
