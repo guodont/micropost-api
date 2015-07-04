@@ -24,7 +24,7 @@ using rails 4.2.0
 ```
 browser [http:://localhost:3000](http:://localhost:3000)
 
-###Docs
+##Docs
 
 Restfull api docs
 
